@@ -1,2 +1,6 @@
 -Narrow Width Nav Menu
+-general mobile scaling
 -Update fb/ig links
+-parralax scrolling for about us points - 1 "page" per topic
+-On form header click collapse
+-collapse form on header click

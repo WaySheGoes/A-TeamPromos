@@ -1,10 +1,20 @@
-html body{
+html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	background-color: #BADA55;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.formHeader{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    color: white;
 }
 
 .hero{
@@ -29,6 +39,27 @@ html body{
     line-height: 1.5;
 }
 
+.headerStyle{
+    background-color: #BADA55;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.subtitleStyle{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.contactInfo{
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+}
+
 .btn-primary{
 	color: #fff;
     background-color: transparent;
@@ -45,6 +76,38 @@ html body{
 	background-color:rgba(255,255,255,0.1);
 }
 
-.btn-primary:active {
+.btn-primary:active{
     transform:translateY(1px);
+}
+
+#phoneNumSpan{
+    margin-left: 39px;
+}
+
+#emailSpan{
+    margin-left: 50px;
+}
+
+#addressSpan{
+    margin-left: 25px;
+}
+
+.form-control{
+    width: 500px;
+}
+
+#generalInquiries{
+
+}
+
+.headerWrap{
+    text-align: center;
+}
+
+input, textarea{
+    width: 100% !important;
+}
+
+.centerButton{
+    
 }

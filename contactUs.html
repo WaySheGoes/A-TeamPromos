@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>A Team Promos</title>
-	<!-- Bootstrap/jQuery CDNs -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -30,5 +29,139 @@
             </div>
         </div>
 	</nav>
+    <div class="container">
+        <div class="page-header">
+            <h1 class="headerStyle">Contact Us</h1>
+        </div>
+        <div id="contactInfo">         
+            <p class="contactInfo"><b>Phone:</b><span id="phoneNumSpan">(555)555-5555</span></p>
+            <p class="contactInfo"><b>Email:</b><span id="emailSpan">BigDog@A-TeamPromos.com</span></p>
+            <p class="contactInfo"><b>Address:</b><span id="addressSpan">25655 Straight Road Batavia, NY 13616</span></p>
+        </div>
+        <div id="generalInquries" class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="headerWrap">
+                        <h2 class="formHeader">General Inquiry</h2>
+                        <hr>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="help">How can we help you?</label>
+                            <textarea class="form-control" rows="4" name="help" id="help"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="companyName">Company Name</label>
+                            <input type="text" name="companyName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="special">What makes your brand special?</label>
+                            <textarea class="form-control" rows="4" name="special" id="special"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2 btn btn-primary centerButton">Submit</div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+        <div id="requestQuote" class="">
+            <div class="row">
+               <div class="col-sm-3"></div>
+               <div class="page-header col-sm-6">
+                    <h2 class="formHeader" class="col-sm-12">Request A Quote</h2>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="companyName">Company Name</label>
+                            <input type="text" name="companyName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="email" name="phone" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" name="city" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <input type="text" name="state" class="form-control">
+                        </div> 
+                        <div class="form-group">
+                            <label for="special">What makes your brand special?</label>
+                            <textarea class="form-control" rows="4" name="special" id="special"></textarea>
+                        </div> 
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="form-group">
+                            <label for="zip">Zip Code</label>
+                            <input type="text" name="zip" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Event Date</label>
+                            <input type="text" name="eventDate" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="eventLocation">Event Location</label>
+                            <input type="text" name="eventLocation" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="arrivalTime">Arrival Time</label>
+                            <input type="text" name="arrivalTime" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="exitTime">Exit Time</label>
+                            <input type="text" name="exitTime" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfStaff">Number of Staff</label>
+                            <input type="text" name="numberOfStaff" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="notesRequirements">Notes/Requirements</label>
+                            <textarea type="text" name="notesRequirements" rows="4" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2 btn btn-primary centerButton">Submit</div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
