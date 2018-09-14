@@ -111,3 +111,8 @@ input, textarea{
 .centerButton{
     
 }
+
+#cimg{
+height: 75vh;
+width: 100%;
+}
