@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="assets\css\styles.css">
 	<script type="text/javascript" src="assets\javascript\script.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<nav class="navbar navbar-default">
         <div class="container">
             <a class="navbar-brand" href="#">A Team Promos</a>
@@ -30,22 +30,8 @@
             </div>
         </div>
 	</nav>
-    <div class="container">
-        <div class="page-header">
-            <h1 class="headerStyle">About Us</h1>
-        </div>
-    </div>
-	
-
-
-
-
-
-
-
-
-
-<div class="container">
+ 
+<div class="container" id = "carousel">
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval = "8000">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -59,9 +45,14 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img id = "cimg" src="assets/img/test1.jpeg" alt="Los Angeles" >
+        <img id = "cimg" src = "assets/img/test1.jpeg"  alt="Los Angeles" >
 		
-		<div class="carousel-caption">
+		<div  id = "about" class="carousel-caption">
+        <h1>About Us </h1>
+		
+      </div>
+		
+		<div class = "carousel-caption" >
         <h3>Give A-Team Promos a try and see what we can do for you! </h3>
         <p>	A-Team Promos is an elite nationwide event staffing and promotional company. What makes us different is we have a small staff that is focused on big results. We take the time to hand select all of our talent with an extensive on boarding process including interviews, one on one in depth training and 24/7 on call. 
 </p>
@@ -72,6 +63,12 @@
       <div class="item">
         <img id = "cimg" src="assets/img/test2.jpeg" alt="Chicago">
 		
+		
+	  <div  id = "about" class="carousel-caption">
+        <h1>About Us </h1>
+		
+      </div>
+	  
 		<div class="carousel-caption">
         <h3>Why Us? In-Depth training for all talent </h3>
         <p>Large data base numbers doesn't mean quality data base numbers. We hand select all of our talent and train each individual based on your needs.</p>
@@ -82,6 +79,12 @@
 	  
 	    <div class="item">
         <img id = "cimg" src="assets/img/test3.jpeg" alt="Chicago">
+		
+		
+		<div  id = "about" class="carousel-caption">
+        <h1>About Us </h1>
+		
+      </div>
 		
 		<div class="carousel-caption">
         <h3>All about you</h3>
@@ -95,6 +98,11 @@ We are all about the client. What do you need? We are here to focus on your need
 	    <div class="item">
         <img id = "cimg" src="assets/img/test4.jpeg" alt="Chicago">
 		
+		<div  id = "about" class="carousel-caption">
+        <h1>About Us </h1>
+		
+      </div>
+		
 		<div class="carousel-caption">
         <h3>Experience</h3>
         <p>
@@ -106,7 +114,12 @@ With years of being brand ambassadors and even more years of staffing and bookin
     
       <div class="item">
         <img id = "cimg"src="assets/img/test5.jpeg" alt="New york">
+		<div  id = "about" class="carousel-caption">
+      
+	  <h1>About Us </h1>
 		
+      </div>
+	  
 		<div class="carousel-caption">
         <h3>
 Affordable Rates and Exceptional Service </h3>
@@ -129,7 +142,5 @@ We will personally book each and every single event.</p>
     </a>
   </div>
 </div>
-	<br>
-	
 </body>
 </html>
