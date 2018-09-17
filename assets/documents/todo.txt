@@ -1,6 +1,58 @@
--Narrow Width Nav Menu
--general mobile scaling
--Update fb/ig links
--parralax scrolling for about us points - 1 "page" per topic
--On form header click collapse
--collapse form on header click
+**General**
+--Narrow Width Nav Menu
+--Replace stock images 
+	-Ask Leanda to find stock images or at least for topics 
+	-shutterstock or free stock photo sites
+--Ask for styling
+	-color scheme
+		-nav bar
+		-body
+		-text color
+--general mobile scaling
+--Update fb/ig links
+--page footer?
+--Figure hosting solution
+	-hosting provider
+	-domain	
+	-email accounts
+	-emails for form submission handling - php?
+	-Host temporarily on apache server at home potentially
+
+**Home**
+-Button Link
+-Replace or eliminate filler text
+
+**About Us**
+--Fit carousel to window
+--Fill out carousel pages 
+	-top bottom left right classes 
+	-bigger captions/headings
+	-consolidate layout - more than one heading/description per slide
+
+**Services**
+--Fit carousel to window
+--Fill out carousel pages 
+	-top bottom left right classes 
+	-bigger captions/headings
+	-consolidate layout - probably don't need 10 slides for 10 services
+	-scroll down from carousel and see all services w/ descriptions
+	-"Bulleted List". Each service has an icon
+	-Ask about Service Area - Map and text? Bulleted list?
+
+**Clients**
+--hide from each page's nav
+--No clients currently - prepare layout for "testimonials"
+
+**Book a Promo**
+--Submit button
+--2 column form
+--input types
+--validation styling
+--validation methods from WDT
+--Collapsible form headings?
+
+**Contact Us**
+--Add form validation methods from WDT
+--Validation styling - bootstrap
+--Hide each form behind buttons
+--onclick reveal form and snap to
