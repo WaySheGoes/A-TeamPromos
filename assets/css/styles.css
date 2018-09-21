@@ -5,6 +5,10 @@ html, body{
 	padding: 0;
 	background-color: #5B5BFF;
 	font-family: 'Montserrat', sans-serif;
+	
+}
+#htmlscroll{
+	overflow: hidden;
 }
 
 .formHeader{
@@ -120,7 +124,10 @@ input, textarea{
 	margin-top: 0;
 	padding: 0;	
 }
-
+#middle{
+	top:40%;
+	bottom: auto;
+}
 #middle-left{
 	top:40%;
 	bottom: auto; 
@@ -134,9 +141,33 @@ input, textarea{
 	
 }
 #top{
-	top:50%;
+	top:50px;
 	bottom:auto;
 	
+}
+#bottom{
+	top:575px;
+	bottom:auto;
+}
+#top-right{
+	left: 70%;
+	bottom: 70%;
+}
+
+#top-left{
+	right: 80%;
+	bottom: 68%;
+}
+
+#bottom-left{
+	right: 80%;
+}
+
+#bottom-right{
+	left: 70%
+}
+div > h3{
+	font-size = 24px;
 }
 #about{
 	top: 0;
